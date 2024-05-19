@@ -104,7 +104,7 @@ const footer = () => {
             <div className='py-10 md:flex items-center justify-between border-t border-t-bordertop'>
                 <h4 className='text-darkgrey text-sm text-center md:text-start font-normal'>@2024 - PsicoEstratégia. Todos os direitos reservados. Feito com amor por Talita Araujo</h4>
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
-                    <h4 className='text-darkgrey text-sm font-normal'><Link href="/" target="_blank">Política de Privacidad</Link></h4>
+                    <h4 className='text-darkgrey text-sm font-normal'><Link href="/" target="_blank">Política de Privacidade</Link></h4>
                     <div className="h-5 bg-bordertop w-0.5"></div>
                     <h4 className='text-darkgrey text-sm font-normal'><Link href="/" target="_blank">Termos & Condições</Link></h4>
                 </div>

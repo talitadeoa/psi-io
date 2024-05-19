@@ -14,8 +14,8 @@ const Banner = () => {
 
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h1 className="text-4xl lg:text-7xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
-                            Aproveite a psicologia do trabalho para alcançar o sucesso.
+                            <h1 className="text-3xl lg:text-6xl font-semibold mb-4 text-lightgrey md:3px lg:text-start text-center">
+                            Conheça a psicologia por trás do trabalho e acelere seu sucesso.
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
