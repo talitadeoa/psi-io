@@ -15,8 +15,8 @@ const Newsletter = () => {
                                 <h3 className="text-lg font-normal text-white mb-3 ls-51"> NEWSLETTER </h3>
                             </Fade>
                             <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                                <h3 className="text-3xl md:text-5xl font-semibold text-white mb-8">
-                                    Subscribe our <br /> newsletter.
+                                <h3 className="text-2xl md:text-1xl font-semibold text-white mb-6">
+                                Receba dicas e novidades, temperados com um pouco de arte e opinião, sobre como criar melhores relacionamentos com o trabalho e ambientes de trabalho saudáveis e produtivos para você e outras pessoas.<br />
                                 </h3>
                             </Fade>
 
@@ -39,19 +39,19 @@ const Newsletter = () => {
                     {/* COLUMN-2 */}
                     <div className="col-span-5 relative hidden md:block">
                         <div>
-                            <Image src={'/images/Newsletter/soup.svg'} alt="soup-image" width={626} height={602} className='-mt-24' />
+                            <Image src={'/images/Newsletter/soup.svg'} alt="." width={626} height={602} className='-mt-24' />
                         </div>
                         <div className="absolute top-[78%]">
-                            <Image src={'/images/Newsletter/onion.svg'} alt="onion-image" width={300} height={122} />
+                            <Image src={'/images/Newsletter/onion.svg'} alt="." width={300} height={122} />
                         </div>
                         <div className="absolute top-[30%] right-[-23%] hidden lg:block">
-                            <Image src={'/images/Newsletter/lec.svg'} alt="lettuce-image" width={300} height={122} />
+                            <Image src={'/images/Newsletter/lec.svg'} alt="." width={300} height={122} />
                         </div>
                         <div className="absolute bottom-[10%] left-[0%]">
-                            <Image src={'/images/Newsletter/yellow.svg'} alt="yellow-image" width={59} height={59} />
+                            <Image src={'/images/Newsletter/yelloww.svg'} alt="." width={59} height={59} />
                         </div>
                         <div className="absolute bottom-[20%] right-[20%]">
-                            <Image src={'/images/Newsletter/blue.svg'} alt="blue-image" width={25} height={25} />
+                            <Image src={'/images/Newsletter/bluee.svg'} alt="." width={25} height={25} />
                         </div>
                     </div>
 

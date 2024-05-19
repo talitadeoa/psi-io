@@ -36,19 +36,13 @@ const socialLinks: socialLinks[] = [
 const products: ProductType[] = [
     {
         id: 1,
-        section: "Company",
-        link: ['About', 'Careers', 'Mobile', 'Blog', 'How we work?'],
+        section: "Empresa",
+        link: ['Sobre nós', 'Serviços', 'Recursos',],
     },
     {
         id: 2,
-        section: "Contact",
-        link: ['Help/FAQ', 'Press', 'Affiliates', 'Hotel owners', 'Partners']
-    }
-    ,
-    {
-        id: 3,
-        section: "More",
-        link: ['Recipe', 'Chef', 'Food', 'Support']
+        section: "Contato",
+        link: ['Dúvidas Frequentes', 'Contato',]
     }
 ]
 
@@ -67,7 +61,7 @@ const footer = () => {
                             Humanade.
                         </Link>
                     </div>
-                    <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Open an account in minutes, get full financial <br /> control for much longer.</h3>
+                    <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Conheça a psicologia por trás do trabalho <br />e acelere seu sucesso.</h3>
                     <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (
@@ -102,7 +96,7 @@ const footer = () => {
             {/* All Rights Reserved */}
 
             <div className='py-10 md:flex items-center justify-between border-t border-t-bordertop'>
-                <h4 className='text-darkgrey text-sm text-center md:text-start font-normal'>@2024 - PsicoEstratégia. Todos os direitos reservados. Feito com amor por Talita Araujo</h4>
+                <h4 className='text-darkgrey text-sm text-center md:text-start font-normal'>@2024 - PsicoEstratégia. Todos os direitos reservados. Feito com ❤️ por Talita Araujo</h4>
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
                     <h4 className='text-darkgrey text-sm font-normal'><Link href="/" target="_blank">Política de Privacidade</Link></h4>
                     <div className="h-5 bg-bordertop w-0.5"></div>

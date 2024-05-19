@@ -33,10 +33,10 @@ A ciência da psicologia no ambiente de trabalho é uma ferramenta para indivíd
 
                     <div className='col-span-6 flex justify-center relative'>
                         <div className='flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
-                            <Image src={'/images/Banner/pizza.svg'} alt="pizza-image" width={68} height={68} />
-                            <p className='text-lg font-normal'></p>
+                            <Image src={'/images/Banner/Logo.svg'} alt="logo-image" width={68} height={68} />
+                            <p className='text-lg font-normal'>Mais de 100 clientes felizes</p>
                         </div>
-                        <Image src="/images/Banner/banner-image.png" alt="nothing" width={1000} height={805} />
+                        <Image src="/images/Banner/banner-image.png" alt="Talita Araujo" width={1000} height={805} />
                     </div>
                 </div>
             </div>

@@ -14,35 +14,21 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Senior Chef',
-        name: 'Shoo Thar Mien',
+        profession: '1',
+        name: 'fulano',
         imgSrc: '/images/Expert/boyone.svg',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        profession: '2',
+        name: 'ciclano',
         imgSrc: '/images/Expert/girl.png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        profession: '3',
+        name: 'beltrano',
         imgSrc: '/images/Expert/boytwo.svg',
     },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
+
 ]
 
 // CAROUSEL SETTINGS
@@ -114,7 +100,7 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
+                                        <Image src={items.imgSrc} alt="." width={362} height={262} className="inline-block m-auto" />
                                         <div className="absolute top-[50%] right-[2%]">
                                             <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
                                         </div>
