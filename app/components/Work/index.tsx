@@ -14,27 +14,27 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/images/Features/featureOne.svg',
+        imgSrc: '/images/Features/featureOne.jpg',
         heading: "Suporte Individual",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        subheading: "blabla",
         link: 'Saiba mais'
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
+        imgSrc: '/images/Features/featureTwo.jpg',
         heading: "Orientação de carreira",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        subheading: "blabla",
         link: 'Saiba mais'
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
+        imgSrc: '/images/Features/featureThree.jpg',
         heading: "Consultoria Organizacional",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        subheading: "blabla",
         link: 'Saiba mais'
     },
     {
-        imgSrc: '/images/Features/featureFour.svg',
+        imgSrc: '/images/Features/featureFour.jpg',
         heading: "Academia de Gestão Online",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        subheading: "blabla",
         link: 'Saiba mais'
     }
 

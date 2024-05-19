@@ -58,7 +58,7 @@ const footer = () => {
                     <div className="flex flex-shrink-0 items-center border-right">
                         <Image src="/images/Logo/Logo.svg" alt="logo" width={56} height={56} />
                         <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                            Humanade.
+                            PsicoEstratégia.
                         </Link>
                     </div>
                     <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Conheça a psicologia por trás do trabalho <br />e acelere seu sucesso.</h3>
