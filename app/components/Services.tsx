@@ -40,7 +40,7 @@ const cardData: cardDataType[] = [
 
 ]
 
-const Work = () => {
+const Services = () => {
     return (
 
 
@@ -78,4 +78,4 @@ const Work = () => {
     )
 }
 
-export default Work;
+export default Services;

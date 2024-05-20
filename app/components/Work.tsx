@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 
 
-const Cook = () => {
+const Work = () => {
 
     return (
         <div className='relative' id="cook-section">
@@ -50,4 +50,4 @@ Nós capacitamos você a navegar por desafios, aproveitar oportunidades e alcan�
     )
 }
 
-export default Cook;
+export default Work;

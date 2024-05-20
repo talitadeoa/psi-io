@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 
 
-const Gallery = () => {
+const Feedback = () => {
     return (
         <div id="gallery-section">
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 mt-20 md:pt-24'>
@@ -53,4 +53,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery;
+export default Feedback;
