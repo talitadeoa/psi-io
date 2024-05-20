@@ -36,6 +36,12 @@ const Gallery = () => {
                                 </div>
                                 <div className='overflow-hidden rounded-3xl'>
                                     <Image src="/images/Gallery/foodfour.jpg" alt="-four" width={500} height={405} className="inner-img"/>
+                                
+                <div className="text-center">
+
+
+                 </div>
+
                                 </div>
                             </div>
                         </div>
