@@ -27,7 +27,7 @@ const cardData: cardDataType[] = [
     },
     {
         imgSrc: '/images/Features/featureThree.jpg',
-        heading: "Consultoria Organizacional",
+        heading: "Desenvolvimento Organizacional",
         subheading: "blabla",
         link: 'Saiba mais'
     },
